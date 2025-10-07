@@ -1,0 +1,68 @@
+# Data files (keep structure but not large data files)
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.xls
+data/raw/*.sas7bdat
+data/raw/*.dta
+data/raw/*.rds
+data/raw/*.RData
+data/processed/*.csv
+data/processed/*.xlsx
+data/processed/*.xls
+data/processed/*.sas7bdat
+data/processed/*.dta
+data/processed/*.rds
+data/processed/*.RData
+
+# Output files (keep structure but not generated files)
+output/figures/*.png
+output/figures/*.jpg
+output/figures/*.jpeg
+output/figures/*.pdf
+output/figures/*.svg
+output/tables/*.csv
+output/tables/*.xlsx
+output/tables/*.html
+output/tables/*.docx
+
+# R specific
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# SAS specific
+*.log
+*.lst
+*.sas7bcat
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.temp
+~$*
